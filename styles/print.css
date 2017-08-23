@@ -1,0 +1,72 @@
+#divWrapper #divWrapperSearch,
+#divWrapper #divWrapperMenu,
+#divWrapper #divWrapperFlash,
+#divSubContentWrapper #divSubContentRight,
+#divWrapperSubContent #divWrapperContentRight,
+#divWrapperBreadcrumb input {
+	display: none;
+}
+
+#divWrapper #divWrapperBreadcrumb {
+	width: 975px;
+	padding: 20px 0 0;
+}
+
+#divWrapper #divSubContentWrapper {
+	width: 975px;
+	padding: 15px 0;
+	
+}
+
+#divSubContentWrapper #divSubContentLeft {
+	width: 933px;
+	padding: 20px;
+}
+
+#divWrapperSubContent #divWrapperContentLeft {
+	width: 933px;
+	margin-right: 0;
+	padding: 10px;
+}
+
+* html #divSubContentWrapper #divSubContentRight  {
+	clear: both;
+	float: none;
+	margin-top: 5px;
+}
+
+* html #divWrapper #divWrapperLogo,
+* html #divWrapper #divWrapperBreadcrumb,
+* html #divWrapper #divSubContentWrapper,
+* html #divSubContentWrapper #divSubContentFull,
+* html #divWrapperSubContent #divWrapperContentFull,
+* html #divWrapper #divWrapperBottom {
+	width: 660px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+* html #divSubContentWrapper #divSubContentLeft {
+	width: 618px;
+}
+
+/*For BAM */
+* html #divWrapper #divWrapperSubContent {
+	width: 638px;
+	padding: 10px;
+}
+
+* html #divWrapperSubContent #divWrapperContentFull,
+* html #divWrapperSubContent #divWrapperContentLeft {
+	width: 618px;
+	padding: 10px;
+	margin-right: 0;
+}
+
+* html .subNewsItems {
+	width: 596px;
+}
+
+* html .subNewsItems .subNewsTitle {
+	width: 590px;
+}
