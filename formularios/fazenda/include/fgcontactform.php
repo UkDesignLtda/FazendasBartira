@@ -189,12 +189,6 @@ class FGContactForm
 
         $this->mailer->AddReplyTo($this->email);
         
-
-        
- 
-        
-        
-
         $message = $this->ComposeFormtoEmail();
 
         $textMsg = trim(strip_tags(preg_replace('/<(head|title|style|script)[^>]*>.*?<\/\\1>/s','',$message)));
