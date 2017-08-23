@@ -175,6 +175,12 @@ class FGContactForm
 
         $this->mailer->CharSet = 'utf-8';
         
+        $this->mailer->Host = "10.199.2.57";
+        
+        $this->mailer->Port = 25;
+        
+//        $this->mailer->SMTPAuth = true;
+        
         $this->mailer->Subject = "Contact form submission from $this->name";
 
         $this->mailer->From = $this->GetFromAddress();
@@ -182,6 +188,12 @@ class FGContactForm
         $this->mailer->FromName = $this->name;
 
         $this->mailer->AddReplyTo($this->email);
+        
+
+        
+ 
+        
+        
 
         $message = $this->ComposeFormtoEmail();
 
